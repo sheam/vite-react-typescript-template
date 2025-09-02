@@ -16,6 +16,8 @@ export default tseslint.config([
     'tsconfig.json',
     'tsconfig.node.json',
     'tsconfig.app.json',
+    'setupTests.ts',
+    'setupTestsGlobal.ts',
   ]),
   {
     files: ['**/*.{ts,tsx}'],
