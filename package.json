@@ -10,7 +10,8 @@
     "test": "vitest run --silent --watch=false",
     "pre-commit:lint": "npx eslint --fix",
     "pre-commit:format": "npx prettier --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "husky-fix": "husky init && echo npx lint-staged > .husky/pre-commit"
   },
   "dependencies": {
     "react": "^19.1.1",
