@@ -33,6 +33,12 @@ export default tseslint.config([
       // Enable lint rules for React DOM
       reactDom.configs.recommended,
     ],
+    rules: {
+      '@typescript-eslint/no-non-null-assertion': 'off',
+      '@typescript-eslint/restrict-template-expressions': 'off',
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'error',
+    },
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
